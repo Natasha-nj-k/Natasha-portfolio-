@@ -9,6 +9,7 @@ body {
 }
 
 /* header */
+@media (min-width: 1024px) {
 nav {
   display: flex;
   flex-direction: row;
@@ -16,6 +17,7 @@ nav {
   height: 96px;
   padding: 24px 60px 24px 60px;
   justify-content: space-between;
+}
 }
 
 .logo {
@@ -50,4 +52,95 @@ nav ul {
 
 nav ul li {
   list-style: none;
+}
+
+/* main */
+@media (min-width: 768px) {
+.intro-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr; 
+  justify-items: center;
+  width: 544px;
+  height: 360px;
+  margin-top: 286px;
+  margin-left: 108px;
+  padding-bottom: 22px ;
+}
+}
+
+.intro-content h1 {
+  display: flex;
+  flex-direction: column;
+  grid-area: content;
+  width: 544px;
+  height: 182px;
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 101px;
+  font-weight: 400;
+  line-height: 90.9px;
+}
+
+.intro-content p {
+  display: flex;
+  flex-direction: column;
+  width: 544px;
+  height: 54px;
+  font-family: "Manrope", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  text-align: left;
+}
+
+.intro-btn {
+  display: flex;
+  flex-direction: row;
+  width: 327px;
+  height: 54px;
+  gap: 16px;
+}
+
+.contact-btn{
+  text-align: center;
+  color: #0A0A0A;
+  background-color: #d3e97a;
+  width: 187px;
+  height: 54px;
+  padding: 20px 6px 20px 24px;
+  gap: 12px;
+  border-radius: 100px;
+  font-family: "Manrope", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 16px;
+  cursor: pointer;
+}
+
+.icon{
+  Width: 54px;
+  height: 54px;
+  background-color: #222222; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 100%;
+}
+
+.icon img{
+  width: 26px;
+  height: 26px;
+}
+
+.photo{
+  display: grid;
+  justify-content: center;
+  justify-items: center;
+}
+
+.photo img{
+  width: 600px;
+  height: 700px;
+  top: 126px;
+  left: 732px;
+  border-radius: 16px;
 }
