@@ -9,17 +9,14 @@ body {
 }
 
 /* header */
-
-/* @media (min-width: 1024px) {
-  nav {
+  /* nav {
     display: flex;
     flex-direction: row;
     width: fixed;
     height: 96px;
     padding: 24px 60px 24px 60px;
     justify-content: space-between;
-  }
-} */
+  } */
 
 .logo {
   border: 1px;
