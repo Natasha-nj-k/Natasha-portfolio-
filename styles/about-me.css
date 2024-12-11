@@ -485,3 +485,126 @@ button {
 button:hover {
   background-color: #ac3;
 }
+
+/* responsive*/
+@media (max-width: 1200px) {
+  .logo {
+    width: auto;
+    font-size: 28px;
+  }
+
+  nav ul {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+  }
+
+  .about-me h1 {
+    font-size: 72px;
+    left: 20px;
+  }
+
+  .text {
+    width: auto;
+    float: none;
+    position: relative;
+    left: 0;
+  }
+
+  .image-section {
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    width: auto;
+    left: 0;
+  }
+
+  .capabilities {
+    padding: 40px 0;
+    width: auto;
+  }
+
+  .connect-section h1 {
+    font-size: 56px;
+  }
+}
+
+/* smaller screens */
+@media (max-width: 768px) {
+  nav ul li a {
+    position: static;
+  }
+
+  .logo a {
+    position: static;
+    font-size: 24px;
+  }
+
+  .about-me h1 {
+    font-size: 48px;
+    text-align: center;
+  }
+
+  .text {
+    width: 100%;
+    text-align: center;
+  }
+
+  .socials-link,
+  .social-icons {
+    justify-content: center;
+  }
+
+  .image-section img {
+    width: 100%;
+    height: auto;
+  }
+
+  .capabilities h2 {
+    font-size: 48px;
+    text-align: center;
+  }
+
+  .job {
+    width: 100%;
+    text-align: center;
+    position: static;
+  }
+
+  .form-section {
+    margin: 20px;
+  }
+}
+
+/*small screens */
+@media (max-width: 480px) {
+  body {
+    font-size: 16px;
+  }
+
+  .logo {
+    font-size: 20px;
+  }
+
+  nav ul {
+    gap: 8px;
+  }
+
+  .about-me h1 {
+    font-size: 36px;
+  }
+
+  .resume-btn {
+    font-size: 14px;
+    padding: 10px;
+  }
+
+  .connect-section .p1 {
+    font-size: 16px;
+  }
+
+  button {
+    font-size: 14px;
+    padding: 8px;
+  }
+}
