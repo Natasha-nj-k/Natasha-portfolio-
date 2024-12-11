@@ -9,8 +9,7 @@ body {
 }
 
 /* header */
-
-/* nav {
+  /* nav {
     display: flex;
     flex-direction: row;
     width: fixed;
@@ -503,9 +502,9 @@ button:hover {
   background-color: #ac3;
 }
 
-/* Responsive Design */
+/* responsive*/
 
-/* others */
+/*others*/
 @media (max-width: 1200px) {
   .intro-content h1 {
     font-size: 80px;
@@ -543,7 +542,7 @@ button:hover {
   }
 }
 
-/* tablets */
+/*tablets*/
 @media (max-width: 768px) {
   nav ul {
     flex-direction: column;
@@ -596,7 +595,7 @@ button:hover {
   }
 }
 
-/* phones */
+/*phones */
 @media (max-width: 480px) {
   body {
     font-size: 16px;
