@@ -9,7 +9,8 @@ body {
 }
 
 /* header */
-  /* nav {
+
+/* nav {
     display: flex;
     flex-direction: row;
     width: fixed;
@@ -58,20 +59,6 @@ nav ul li {
 }
 
 /* main-section 1 */
-
-/* @media (min-width: 768px) {
-  .intro-container {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    justify-items: center;
-    width: 544px;
-    height: 360px;
-    margin-top: 286px;
-    margin-left: 108px;
-    padding-bottom: 22px;
-  }
-} */
-
 .intro-content h1 {
   display: flex;
   flex-direction: column;
@@ -514,4 +501,139 @@ button {
 
 button:hover {
   background-color: #ac3;
+}
+
+/* Responsive Design */
+
+/* others */
+@media (max-width: 1200px) {
+  .intro-content h1 {
+    font-size: 80px;
+    left: 50px;
+  }
+
+  .intro-content p {
+    width: 100%;
+    left: 50px;
+    font-size: 16px;
+  }
+
+  .photo {
+    width: 100%;
+    height: auto;
+    position: relative;
+    top: 0;
+    float: none;
+    right: 0;
+  }
+
+  .container1,
+  .container2,
+  .container3 {
+    grid-template-columns: 1fr;
+    left: 0;
+    width: 100%;
+  }
+
+  .projectcard1,
+  .projectcard2,
+  .projectcard3 {
+    width: 90%;
+    margin: 0 auto;
+  }
+}
+
+/* tablets */
+@media (max-width: 768px) {
+  nav ul {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+  }
+
+  .logo a {
+    left: 20px;
+    top: 20px;
+    font-size: 24px;
+  }
+
+  .intro-content h1 {
+    font-size: 60px;
+    left: 20px;
+    text-align: center;
+  }
+
+  .intro-content p {
+    font-size: 14px;
+    left: 20px;
+    text-align: center;
+  }
+
+  .contact-btn {
+    left: 0;
+    margin: 10px auto;
+    display: block;
+  }
+
+  .icon {
+    left: 0;
+    margin: 10px auto;
+    display: block;
+  }
+
+  .photo {
+    width: 90%;
+    margin: 20px auto;
+  }
+
+  .connect-section {
+    text-align: center;
+  }
+
+  .social-icons {
+    justify-content: center;
+    margin: 0 auto;
+  }
+}
+
+/* phones */
+@media (max-width: 480px) {
+  body {
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .intro-content h1 {
+    font-size: 40px;
+  }
+
+  .intro-content p {
+    font-size: 12px;
+  }
+
+  .photo {
+    width: 100%;
+    height: auto;
+  }
+
+  .projectcard1,
+  .projectcard2,
+  .projectcard3 {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .connect-section h1 {
+    font-size: 40px;
+  }
+
+  .social-icons img {
+    width: 20px;
+    height: 20px;
+  }
+
+  button {
+    padding: 8px;
+    font-size: 14px;
+  }
 }
