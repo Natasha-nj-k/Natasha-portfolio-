@@ -264,6 +264,13 @@ nav ul li {
   gap: 16px;
 }
 
+.btn6 {
+  width: 129px;
+  height: 56px;
+  padding: 20px 40px 20px 40px;
+  gap: 16px;
+}
+
 .hr1 {
   position: relative;
   top: -20px;
