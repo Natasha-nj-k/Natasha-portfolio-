@@ -25,7 +25,10 @@
       <div class="logo">
         <a href="home.html">NATASHA NJOKI</a>
       </div>
-      <ul>
+      <div class="menu-toggle" onclick="toggleMobileMenu()">
+        <i class="fa-solid fa-bars"></i>
+    </div>
+      <ul id="navLink">
         <li><a href="#work">Work</a></li>
         <li><a href="#about">About</a></li>
         <li><a href="#contact">Contact</a></li>
@@ -186,7 +189,7 @@
       </div>
 
       <div class="form-section">
-        <form action="#" method="post">
+        <form id="contactForm">
           <label for="name">Name</label>
           <input type="text" id="name" name="name" placeholder="John Doe" required>
 
@@ -204,6 +207,7 @@
       </div>
     </div>
   </main>
+  <script src="./Js/home.js"></script>
 </body>
 
 </html>
